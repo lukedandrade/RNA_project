@@ -2,8 +2,8 @@ import csv
 
 #Tamanho da frase | Tempo de digitação | Identificação de idade
 
-data_txt = open('dados.txt', mode='r')
-data_csv = open('resultados.csv', mode='w')
+data_txt = open('dados_oficiais_revisado_v2.txt', mode='r')
+data_csv = open('resultados_oficial_v2.csv', mode='w')
 fieldnames = ['tam_frase', 'timedelta', 'age_id']
 
 
